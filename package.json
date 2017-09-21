@@ -1,0 +1,29 @@
+{
+  "name": "semantic-release-validation-bot",
+  "version": "0.0.30",
+  "description": "sets PR status based on commit messages",
+  "main": "server.js",
+  "author": "Alice Anjali Tiriya & Sohini RoyChoudhury",
+  "scripts": {
+    "start": "probot run ./server.js"
+  },
+  "dependencies": {
+    "conventional-changelog-writer": "^2.0.0",
+    "conventional-commits-parser": "^2.0.0",
+    "glitch-deploy": "^1.1.1",
+    "probot": "^0.11.0",
+    "puppeteer": "^0.10.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alice-anjali/semantic-release-validation-bot"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "keywords": [
+    "node"
+  ]
+}
